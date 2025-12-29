@@ -1,10 +1,11 @@
 **📈 Mean-Variance Portfolio Optimization (Modern Portfolio Theory)**
+
 **📌 Project Overview**
 
 This project implements Mean-Variance Portfolio Optimization based on Modern Portfolio Theory (MPT) proposed by Harry Markowitz.
 The goal is to construct optimal investment portfolios by balancing risk (volatility) and expected return using real historical stock data.
 
-The project:
+**The project:**
 
 Fetches real market data
 
@@ -15,8 +16,8 @@ Simulates thousands of portfolios
 Plots the Efficient Frontier
 
 Optimizes portfolios using numerical optimization techniques
-**
-🎯 Objectives**
+
+**🎯 Objectives**
 
 Understand and implement Modern Portfolio Theory
 
@@ -47,9 +48,9 @@ Sharpe Ratio
 Capital Market Line (CML)
 
 Constrained Optimization
-**
-🛠️ Technologies & Libraries Used
-**
+
+**🛠️ Technologies & Libraries Used**
+
 Python
 
 NumPy – Numerical computation
@@ -114,99 +115,6 @@ Optimal portfolios highlighted
 
 Capital Market Line plotted
 
-📐 Mathematical Formulation
-Expected Portfolio Return:
-𝑅
-𝑝
-=
-∑
-𝑖
-=
-1
-𝑛
-𝑤
-𝑖
-𝑅
-𝑖
-R
-p
-	​
-
-=
-i=1
-∑
-n
-	​
-
-w
-i
-	​
-
-R
-i
-	​
-
-Portfolio Variance:
-𝜎
-𝑝
-2
-=
-𝑤
-𝑇
-Σ
-𝑤
-σ
-p
-2
-	​
-
-=w
-T
-Σw
-Sharpe Ratio:
-Sharpe
-=
-𝑅
-𝑝
-−
-𝑅
-𝑓
-𝜎
-𝑝
-Sharpe=
-σ
-p
-	​
-
-R
-p
-	​
-
-−R
-f
-	​
-
-	​
-
-
-Where:
-
-𝑤
-w = asset weights
-
-𝑅
-R = expected returns
-
-Σ
-Σ = covariance matrix
-
-𝑅
-𝑓
-R
-f
-	​
-
- = risk-free rate
 
 📈 Output & Results
 
